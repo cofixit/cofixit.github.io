@@ -3,17 +3,24 @@
 <head>
     <meta charset="utf-8" /> 
     <title>Notenschlüssel</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="notenschluessel.css">
 </head>
 <body>
-    Maximale Punktanzahl: <input type="text" id="max_points" />
-    <br>
-    Anzahl Punkte: <input type="text" id="points" />
-    <br>
-    <br>
-    Prozent: <strong id="percent"></strong>
-    <br>
-    Note: <strong id="grade"></strong>
+    <form class="form-signin">
+        <h2 class="form-signin-heading">Notenschlussel</h2>
+        <label for="max_points" class="sr-only">Maximale Punktzahl</label>
+        <input type="number" id="max_points" class="form-control" placeholder="Maximale Punktzahl" required autofocus>
+        <label for="points" class="sr-only">Erreichte Punktzahl</label>
+        <input type="number" id="points" class="form-control" placeholder="Erreichte Punktzahl" required>
 
+        <div class="checkbox">
+            <h2>
+                <span class="label label-primary" id="percent">0%</span>
+                <span class="label label-primary" id="grade">0,0</span>
+            </h2>
+        </div>
+    </form>
     <script src="jquery.js"></script>
     <script src="main.js"></script>
 </body>

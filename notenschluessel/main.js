@@ -28,5 +28,8 @@ function update() {
         });
         $('#percent').text(Math.round(percent) + '%');
         $('#grade').text(grade);
+    } else {
+        $('#percent').html('0%');
+        $('#grade').html('0,0');
     }
 }
