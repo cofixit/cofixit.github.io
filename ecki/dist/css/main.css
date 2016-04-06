@@ -65,17 +65,17 @@ body {
 	margin-left: 10px;
 }
 
-.lawyer-divider {
-	margin: 80px 0;
+.element-divider {
+	margin: 30px 0;
 }
 
-.lawyer-heading {
+.element-heading {
 	font-weight: 300;
 	line-height: 1;
 	letter-spacing: -1px;
 }
 
-.lawyer-subhead {
+.element-subhead {
 	line-height: 1;
 	font-size: 21px;
 }
@@ -91,18 +91,22 @@ body {
 		padding-top: 80px;
 	}
 
-	.lawyer-heading {
+	.element-heading {
 		font-size: 50px;
 	}
 
-	.lawyer-subhead {
+	.element-subhead {
 		font-size: 24px;
 		margin: 20px 0 10px 0;
+	}
+
+	.element-divider {
+		margin: 80px 0;
 	}
 }
 
 @media (min-width: 992px) {
-	.lawyer-heading {
+	.element-heading {
 		margin-top: 120px;
 	}
 }
