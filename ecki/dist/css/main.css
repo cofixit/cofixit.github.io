@@ -1,0 +1,109 @@
+/* vim: set tabstop=4:softtabstop=4:shiftwidth=4:noexpandtab */
+
+body {
+	position: relative;
+	padding-bottom: 40px;
+	padding-top: 50px;
+	color: #5a5a5a;
+}
+
+.navbar {
+	background-color: #fff;
+	border-bottom: 1px solid #189aaa;
+}
+
+.navbar .navbar-header .navbar-toggle.collapsed {
+	background-color: transparent;
+}
+
+.navbar .navbar-header .navbar-toggle.collapsed:hover , 
+.navbar .navbar-header .navbar-toggle  {
+	background-color: #eee;
+}
+
+.jumbotron {
+	padding-top: 48px;
+	/*background-color: #2498c2; /*blue*/
+	/*background-color: #0d9d93; /*teal*/
+	background-color: #189aaa; /*turquoise*/
+	color: #eee;
+}
+
+.carousel {
+	height: 500px;
+	margin-bottom: 60px;
+}
+
+.carousel-caption {
+	z-index: 10;
+}
+
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+
+.carousel-inner > .item > .img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 500px;
+}
+
+.marketing .col-lg-3 {
+	margin: 10px 0 40px 0;
+	text-align: center;
+}
+
+.marketing h2 {
+	font-weight: normal;
+}
+
+.marketing .col-lg-3 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.lawyer-divider {
+	margin: 80px 0;
+}
+
+.lawyer-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+.lawyer-subhead {
+	line-height: 1;
+	font-size: 21px;
+}
+
+@media (min-width: 768px) {
+	.carousel-caption p {
+		margin-bottom: 20px;
+		font-size: 21px;
+		line-height: 1.4;
+	}
+
+	.jumbotron {
+		padding-top: 80px;
+	}
+
+	.lawyer-heading {
+		font-size: 50px;
+	}
+
+	.lawyer-subhead {
+		font-size: 24px;
+		margin: 20px 0 10px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.lawyer-heading {
+		margin-top: 120px;
+	}
+}
+
