@@ -106,6 +106,10 @@ body {
 	font-size: 21px;
 }
 
+/*.lead ul {
+	font-size: 16px;
+}*/
+
 /*.lawyer-footer {
 	padding-top: 20px;
 }*/
@@ -133,6 +137,10 @@ body {
 	.element-divider {
 		margin: 80px 0;
 	}
+
+	/*.lead ul {
+		font-size: 21px;
+	}*/
 }
 
 @media (min-width: 992px) {
