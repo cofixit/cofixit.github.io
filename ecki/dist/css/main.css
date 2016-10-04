@@ -145,6 +145,12 @@ body {
 
 @media (min-width: 992px) {
 	.element-heading {
+		margin-top: 0px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.element-heading {
 		margin-top: 120px;
 	}
 }
