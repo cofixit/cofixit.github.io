@@ -56,7 +56,8 @@ body {
 }
 
 .carousel {
-	height: 500px;
+	height: auto;
+	max-height: 500px;
 	margin-bottom: 60px;
 }
 
@@ -65,7 +66,7 @@ body {
 }
 
 .carousel .item {
-	height: 500px;
+	max-height: 500px;
 	background-color: #777;
 }
 
