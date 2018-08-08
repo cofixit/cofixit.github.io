@@ -102,9 +102,13 @@ body {
 	letter-spacing: -1px;
 }
 
-.element-subhead {
+h4.element-subhead {
 	line-height: 1;
 	font-size: 21px;
+}
+h6.element-subhead {
+	line-height: 1;
+	font-size: 18px;
 }
 
 /*.lead ul {
@@ -130,9 +134,12 @@ body {
 		font-size: 50px;
 	}
 
-	.element-subhead {
+	h4.element-subhead {
 		font-size: 24px;
 		margin: 20px 0 10px 0;
+	}
+	h6.element-subhead {
+		font-size: 20px;
 	}
 
 	.element-divider {
